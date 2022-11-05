@@ -1,0 +1,73 @@
+.App{
+  margin:200px;
+  width : calc(100% - 400px);
+  border : 1px solid black;
+}
+.BMI{
+  display: flex;
+}
+.calculator{
+  width:50%;
+  background-color:bisque ;
+}
+.result{
+  width:50%;
+}
+.info{
+  margin:40px;
+  width: calc(100% - 80px);
+  display: flex;
+}
+.age-info{
+  margin-left: 5px;
+}
+.info label{
+  width : 100px;
+  font-weight: bold;
+}
+#calculate , #clear{
+  height:40px;
+  border-radius: 5px;
+  margin:5px;
+  color:bisque;
+}
+#calculate{
+  width:100px;
+  background-color: green;
+}
+#clear{
+  width:70px;
+  background-color: grey;
+}
+::placeholder{
+  float: right;
+}
+.result h1{
+  background-color: green;
+  color:white;
+  margin:5px;
+}
+.error{
+  font-size: 7px;
+  height : 10px;
+  background-color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  border : 1px solid red;
+  margin-top : 3px;
+  visibility: hidden;
+}
+#error-age{
+  display: none;
+  color: red;
+  margin:5px;
+}
+#bmi-result{
+  display: none;
+  margin:5px;
+}
+#red{
+  color:red;
+}
+#calculate:hover, #clear:hover{
+  cursor: pointer;
+}
